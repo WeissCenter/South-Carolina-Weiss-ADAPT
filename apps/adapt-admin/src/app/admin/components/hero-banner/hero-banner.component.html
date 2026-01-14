@@ -5,7 +5,7 @@
    [attr.aria-hidden]="true"
     [src]="logoURL"
     svgClass="display-none desktop:display-flex width-card-lg" *ngIf="logoIsSvg"></lib-adapt-inline-svg>
-  <img *ngIf="!logoIsSvg" [src]="logoURL" class="logo display-none desktop:display-flex width-card-lg" aria-hidden="true" />
+  <img *ngIf="!logoIsSvg" [src]="logoURL" class="logo display-none desktop:display-flex {{logoStyleClass}}" aria-hidden="true" />
   <div class="welcome-user-info width-full display-flex flex-column tablet:flex-row gap-2 padding-y-8">
     <div class="user-info-heading-name-role display-flex gap-1 flex-column">
       <span>{{ organization }}</span>

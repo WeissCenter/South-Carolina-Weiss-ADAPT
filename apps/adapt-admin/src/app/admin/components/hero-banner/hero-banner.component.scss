@@ -3,3 +3,13 @@
   background: linear-gradient(-90deg, var(--usa-primary-lightest) 0%, var(--usa-white) 80%);
   color: var(--usa-ink);
 }
+
+// Specify the styling to be used for the given state logo.
+// AR uses the generic style class: width-card-lg
+// SC: sc_logo_re-size
+// HI:
+// NV:
+.sc_logo_re-size {
+  width: 200px;
+  height: 200px;
+}
