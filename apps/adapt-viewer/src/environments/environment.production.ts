@@ -6,5 +6,6 @@ export const environment = {
   API_URL: 'https://isjd690vm4.execute-api.us-east-1.amazonaws.com/sc-prod/',
   logoPath: 'assets/shared/logos/states/sc',
   logoExtension: 'png',
+  logoStyleClass: 'width-card',
   copyrightText: 'The State of South Carolina.',
 };
