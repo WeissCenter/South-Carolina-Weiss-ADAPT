@@ -22,7 +22,7 @@ export const environment = {
   },
   loginContent: 'assets/content-labels.json',
   pagesContent: 'assets/text/admin-content-text.json',
-  organizationName: '(OSE) Office of Special Education',
+  organizationName: '(OSES) Office of Special Education Services',
 
   // #### State logo custom settings and footer
   logoStyleClass: 'width-card', // AR: width-card-lg, SC: sc_logo_re-size
