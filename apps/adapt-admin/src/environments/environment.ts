@@ -25,7 +25,7 @@ export const environment = {
   organizationName: '(OSE) Office of Special Education',
 
   // #### State logo custom settings and footer
-  logoStyleClass: 'sc_logo_re-size', // AR: width-card-lg, SC: sc_logo_re-size
+  logoStyleClass: 'width-card', // AR: width-card-lg, SC: sc_logo_re-size
   logoPath: 'assets/shared/logos/states/sc', // generic logos: 'assets/shared/logos/generic'
   logoExtension: 'png',
   copyrightText: 'The State of South Carolina.',
